@@ -1,6 +1,6 @@
 function estagFas2() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/perg2.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/perg2.jfif')";
     
     setTimeout(function () {
         escolha1 = alert("Que errado bisbilhoteiro!\nClique em ok para avançar.");
