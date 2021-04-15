@@ -1,6 +1,6 @@
 function adolescente() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/perg1ado.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/perg1ado.jfif')";
 
     setTimeout(function () {
         escolha1 = alert("Você não sabe essa...\nClique em ok para avançar.");
