@@ -1,6 +1,6 @@
 function estagFas4() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/perg3estag.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/perg3estag.jfif')";
     
     setTimeout(function () {
         escolha1 = alert("Eu só posso lhe mostrar a porta. Mas você tem que atravessar.\nClique em ok para avançar.");
