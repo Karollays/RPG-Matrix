@@ -1,6 +1,6 @@
 function hacker() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/perg1.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/perg1.jfif')";
     
     setTimeout(function () {
         escolha1 = alert("Siga o coelho branco\nClique em Ok para avançar.");
