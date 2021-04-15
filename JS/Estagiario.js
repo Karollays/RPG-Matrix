@@ -1,6 +1,6 @@
 function Estagiario() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/perg1est.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/perg1est.jfif')";
     
     setTimeout(function () {
         escolha1 = alert("Boa sorte coscuvilheiro.\nClique em ok para avançar.");
