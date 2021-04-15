@@ -1,6 +1,6 @@
 function estagFas3() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/perg3.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/perg3.jfif')";
     
     setTimeout(function () {
         escolha1 = alert("Vamos para zoo ver as girafinhas\nClique em ok para avançar.");
