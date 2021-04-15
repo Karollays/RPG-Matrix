@@ -1,6 +1,6 @@
 function hackerfase2() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/perg2hack.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/perg2hack.jfif')";
     
     setTimeout(function () {
         escolha1 = alert("O que você faria?\nClique em ok para avançar.");
