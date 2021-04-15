@@ -1,6 +1,6 @@
 function hackerult() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/ulthack.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/ulthack.jfif')";
     
     setTimeout(function () {
         escolha1 = alert("Vivemos em uma realidade programada.\nClique em ok para avançar.");
@@ -21,7 +21,7 @@ function hackerfase4() {
             alert ("VOCÊ DESCOBRIU A MATRIX!");
             alert ("NADA É REAL, TUDO É APENAS UMA SIMULAÇAO!");
             elem = document.querySelector('#pagFase');
-            elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/giphy.webp')"; 
+            elem.style.backgroundImage = "url('./IMAGENS/giphy.webp')"; 
 
         }
     }, 300)
