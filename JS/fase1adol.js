@@ -1,6 +1,6 @@
 function adolescenteFase() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/adolfase1.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/adolfase1.jfif')";
 
     setTimeout(function () {
         escolha1 = alert("Essa útima nao tinha reposta mesmo\nClique em ok para avançar.");
