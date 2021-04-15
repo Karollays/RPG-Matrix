@@ -1,6 +1,6 @@
 function fase2() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/adolfase2.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/adolfase2.jfif')";
 
     setTimeout(function () {
         escolha1 = alert("Essas mensagens são de um tal de -Morfeu\nClique em ok para avançar.");
