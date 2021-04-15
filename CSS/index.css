@@ -1,0 +1,29 @@
+#pagFase {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    z-index: -1;
+    background-image: url(/Users/Karoline/Desktop/RPG/IMAGENS/pag1.jfif);
+    
+    
+}
+
+#start {
+    
+    margin: 20% 25%;
+    color: white;
+    background:black;
+    border: white;
+    
+}
+
+#start:hover {
+    cursor: pointer;
+
+}
+#reserv{
+    color: white;
+}
+
