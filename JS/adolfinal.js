@@ -1,6 +1,6 @@
 function fasefinal() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/adolfase3.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/adolfase3.jfif')";
 
     setTimeout(function () {
         escolha1 = alert("Há uma diferença entre conhecer o caminho e percorrer o caminho.\nClique em ok para avançar.");
@@ -20,7 +20,7 @@ function adolescentefase4() {
             alert ("VOCÊ DESCOBRIU A MATRIX!");
             alert ("NADA É REAL, TUDO É APENAS UMA SIMULAÇAO!");
             elem = document.querySelector('#pagFase');
-            elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/giphy.webp')"; 
+            elem.style.backgroundImage = "url('./IMAGENS/giphy.webp')"; 
 
         }
 
