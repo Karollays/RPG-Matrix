@@ -5,7 +5,7 @@ function escolhaDePersona() {
     elem=document.querySelector ('#Start')
     elem.style.display=("none")
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/Users/Karoline/Desktop/RPG/IMAGENS/personagens.jfif')";
+    elem.style.backgroundImage = "url('./IMAGENS/personagens.jfif')";
     
 
     setTimeout(function () {
